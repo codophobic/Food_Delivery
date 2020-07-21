@@ -1,0 +1,286 @@
+.filterBox {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.searchHeading{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+  .Filters {
+    width: 55px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-top: 17px;
+  }
+
+  .Select-Location {
+    width: 106px;
+    height: 20px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-top: 10px;
+  }
+
+  .selectDropdown {
+    width: 208px;
+    height: 35px;
+    border-radius: 3px;
+    border: solid 1px #8c96ab;
+    margin-top: 11px;
+  }
+  .Cuisine {
+    width: 51px;
+    height: 20px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-top: 22px;
+    margin-bottom: 10px;
+  }
+
+  .CheckboxItem {
+    width: 85px;
+    height: 20px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+
+  .Cost-For-Two {
+    width: 89px;
+    height: 20px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .RadioItem {
+    width: 106px;
+    height: 20px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+  
+  .RadioItem .text-style-1 {
+    font-family: RupeeForadian;
+  }
+
+  .Sort {
+    width: 37px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .RadioCostItem {
+    width: 114px;
+    height: 20px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+
+  .ResItem {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+
+  .ResItem:hover{
+    cursor: pointer;
+  }
+  .imgClass {
+    width: 108px;
+    height: 101px;
+    opacity: 0.75;
+    border-radius: 22px;
+  }
+
+
+  .ResHeading {
+    height: 43px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+
+  .FORT {
+    height: 23px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+
+  .ResAddress {
+    width: 365px;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+  }
+
+  .resSubheading {
+    width: 140px;
+    height: 118px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+    margin-left: 10px;
+  }
+
+  .resDetails {
+    /* width: 251px; */
+    height: 69px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+
+  .mobileShow{
+    display: none;
+  }
+
+
+  @media(max-width:700px)
+  {
+    
+    .imgClass {
+      width: 70px;
+      height: 70px;
+      opacity: 0.75;
+      border-radius: 22px;
+    }
+    .ResHeading{
+      height: 30px;
+      font-size: 20px;
+    }
+    .resSubheading{
+    width: 68px;
+    height: 108px;
+    font-size: 14px;
+    }
+    .resDetails{
+      font-size: 14px;
+      width: 240px;
+    }
+    .content {
+      padding: 0 18px;
+      display: none;
+      overflow: hidden;
+      background-color: #f1f1f1;
+    }
+    .mobileShow{
+      display: inline;
+      margin-left: 200px;
+      font-size: 25px;
+    }
+    .Filters{
+      font-size: 30px;
+      font-weight: bolder;
+    }
+  }

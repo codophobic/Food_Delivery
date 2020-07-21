@@ -1,0 +1,135 @@
+.search-heading {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 0px;
+}
+
+.search-heading1 {
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+  padding: 0px 0px;
+}
+
+.search-location {
+  height: 60px;
+  background-color: #ffffff;
+  margin: 10px;
+  display: inline-block;
+}
+
+.logo {
+  font-family: Poppins;
+  font-size: 116px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.51;
+  letter-spacing: normal;
+  text-align: left;
+  color: #eb2929;
+  width: 147px;
+  height: 147px;
+  border-radius: 50%;
+  background-color: white;
+  vertical-align: middle;
+  text-align: center;
+  margin: auto;
+  line-height: 136px;
+}
+
+.logo-container {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.restaurant-name {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.restaurant-address {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #636f88;
+}
+
+.address-container {
+  padding: 0px 50px;
+}
+
+.restaurant-logo {
+  height: 43px;
+  width: 43px;
+  border-radius: 50%;
+}
+
+.rbt input {
+  height: 60px;
+  border-radius: 10px;
+}
+
+.search-restaurant {
+  height: 60px;
+  background-color: #ffffff;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.search-container {
+  background-image: url('/assets/foodWallpaper.png');
+  background-image: linear-gradient(to bottom, rgba(157, 14, 14, 0), #4f0707);
+  background-color: black;
+  min-height: 500px;
+  padding-top: 40px;
+}
+
+.search-location1{
+  margin-left: 320px;
+}
+
+@media(max-width:500px)
+{
+  .search-location1{
+    margin-left: 50px;
+  }
+  .search-location{
+    margin-left: 50px;
+  }
+  .search-restaurant{
+    margin-left: 50px;
+  }
+  .logo{
+   
+    font-size: 81px;
+    width: 126px;
+    height: 113px;
+    line-height: 113px;
+    margin-top: 15px;
+  }
+  
+}
