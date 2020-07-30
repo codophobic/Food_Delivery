@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const resRoutes = require('./Routes/restaurant');
 const adminRoutes = require('./Routes/admin');
 const cors= require('cors');
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 const app = express();
 app.use(cors());
