@@ -22,7 +22,7 @@ app.use((req, res, next) => {
  app.use('/admin',adminRoutes);
 
 
-mongoose.connect('mongodb+srv://ankit:12345@food.otfjs.mongodb.net/<dbname>?retryWrites=true&w=majority',
+mongoose.connect('"enter your own mongoUri"',
     { useNewUrlParser: true, useUnifiedTopology: true }
 ).then(client => {
     console.log('Connected');
